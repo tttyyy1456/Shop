@@ -24,7 +24,7 @@ app.use(shopRoutes);
 app.use(errorController.getNotFound)
 
 
-
+//Listening to server
 app.listen(8080, ()=>{
     console.log('listening to port 8080')
 })
